@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.body-wrapper{
+    width:100%;
+    height: 100%;
+}
+
+.car-container{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider { 
+    position: absolute;
+}
+
+.car-container img{
+    float: left;
+} 
+
+.left-arrow{
+    position: absolute;
+    display: block;
+    height: 80px;
+    width: 50px;
+    top:34%;
+    background: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.left-arrow img{
+    height: 40px;
+    width:40px;
+    margin-top: 20px;
+}
+.right-arrow{
+    position: absolute;
+    display: block;
+    height: 80px;
+    width: 50px;
+    top:34%;
+    right:0;
+    background: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.right-arrow img{
+        height: 40px;
+        width:40px;
+        margin-top: 20px;
+}
+
+.radio-class{
+    display: inline-block;
+    position: absolute;
+    left:43%;
+    bottom: 0px;
+}
+.radio{ 
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background:  lightgrey;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+    left: 20px;
+} 
